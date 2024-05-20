@@ -1,0 +1,277 @@
+main{
+    background-color: #1A1A1A;
+    color: #FFFFFF;
+}
+
+header{
+    background-color: #1A1A1A;
+    color: #FFFFFF;
+
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.header img{
+    width: 100px;
+}
+.header-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-weight: bold;
+}
+.resume{
+    background-color: aqua;
+    color: white;
+    padding: 5px;
+}
+
+
+
+
+
+.resume-button{
+    background-color: aqua;
+    color: white;
+    font-weight: bold;
+}
+
+.gias{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 250px;
+    margin-bottom: 100px;
+    
+}
+
+.gias-image{
+    width:250px;
+    
+}
+
+.carousal-started{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:25px;
+    height: 400px;
+   
+}
+
+
+
+.master-carousal{
+    margin-left: 250px ;
+    margin-right: 250px ;
+    border: 2px solid #FFFFFF;
+}
+
+.i{
+    width: 100%;
+}
+
+
+.expertise-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.expertise-container .button-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+
+.expertise-container h1 {
+    margin-top: 20px;
+}
+
+.education-container {
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+
+.expertise-container, .education-container {
+    flex: 1; 
+    padding: 20px;
+}
+
+
+.form-container {
+    border: 2px solid #000;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.form-container h2 {
+    margin-bottom: 20px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.half-width {
+    width: 50%;
+    margin: 0 auto; 
+}
+
+.input-group input,
+.input-group textarea,
+.button {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.input-group textarea {
+    height: 100px;
+}
+
+.button {
+    margin-top: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+}
+
+
+
+.horizon{
+    height: 1px;
+    background-color: #fff;
+ }
+
+
+
+.footer {
+    background-color: #1A1A1A;
+    padding: 20px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.footer p {
+    margin: 5px 0;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons img {
+    width: 30px;
+    margin: 0 5px; 
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .header{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        
+    }
+
+    .header-item{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        font-weight: bold;
+    }
+
+    .gias{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 250px;
+        background-color: slategray;
+        
+    }
+    .gias-responsive{
+        text-align: center;
+    }
+
+   
+    .master-carousal {
+        margin-left: 20px;
+        margin-right: 20px; 
+    }
+
+    .carousal-started {
+        flex-direction: column; 
+        height: auto; 
+    }
+
+    .i {
+        max-width: 100%; 
+        height: auto; 
+    }
+
+  }
+
+
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .master-carousal {
+        margin-left: 50px;
+        margin-right: 50px; 
+    }
+
+    .carousal-started {
+        gap: 15px; 
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .container {
+        flex-direction: column; 
+    }
+
+    .expertise-container, .education-container {
+        flex: auto; 
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .footer {
+        padding: 10px;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .form-container {
+        padding: 10px;
+    }
+}
+
